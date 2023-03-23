@@ -1,0 +1,76 @@
+.container{
+    margin: 20px 20px;
+    position: relative;
+    background-color: rgba(29, 28, 24, 0.85);
+    height: 510px;
+    
+
+}
+  img{
+    position: absolute;
+    height: 450px;
+    width: 1040px;
+    top: 0;
+    left: 0;
+  
+   
+  }
+  .image-container{
+    position: relative;
+  }
+  
+  
+  .associationName{
+    position: absolute;
+    top: 390px;
+    left: 240px;
+    color: var(--yellow);
+    
+    font-size: 3rem;
+    font-weight: 1000;
+  }
+   /* after adding logo the width of page increase  */
+  .logo{ 
+    position: absolute;
+    top: 80px;
+    left: 1005px;
+    height:300px ;
+    width: 330px;
+  }
+  .slogon{
+    position: absolute;
+    bottom: 25px;
+    left: 1075px;
+    color: var(--beige);
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .btns {
+    position: absolute;
+    top: 465px;
+    left: 420px;
+  } 
+  .btns button{
+    all: unset;
+    background-color: var(--beige);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+    opacity: 0.8;
+    
+    
+   
+
+
+  } 
+  @media only screen and (max-width: 1024px){
+    /* .container{
+       width: 100%;
+    }
+    img{
+      width: 100%;
+    } */
+  }
