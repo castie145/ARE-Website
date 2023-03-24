@@ -1,0 +1,16 @@
+.logos{
+   position: absolute;
+   color: #fff;
+   opacity: 1;
+   font-size: 2rem;
+   display: flex;
+   justify-content: space-between;
+   width: 180px;
+   cursor: pointer;
+}
+.logos div:hover{
+   color: var(--yellow);
+   
+}
+
+

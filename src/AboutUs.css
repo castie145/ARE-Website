@@ -1,0 +1,35 @@
+.aboutAre{
+    background-color: rgba(29, 28, 24, 0.85);
+    color: var(--beige);
+    padding: 20px;
+    height: 300px;
+    width: 900px;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.pictures{
+    background-color:rgba(29, 28, 24, 0.85) ;
+    height: 300px;
+    width: 400px;
+    margin-right: 20px;
+   
+    margin-top: 40px;
+}
+.container-about-us{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutAre h1{
+    color: var(--yellow);
+    padding-left: 10px ;
+    padding-top: 20px;
+}
+.aboutAre p{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
