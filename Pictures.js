@@ -8,25 +8,7 @@ function Pictures(){
                 
                  
                 <img className='logo' src='logoARE.png' />
-                <div className='btns'>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-                   <button></button>
-
-                </div>
-        
-                 
               </div>
-               
-
                <p className='associationName'>Association Robotique ENSI</p>
                <p className='slogon'>#Ignite-the-passion</p>
             
