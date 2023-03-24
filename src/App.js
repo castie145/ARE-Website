@@ -1,8 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './Components/NavBar.js';
+import Pictures from './Components/Pictures.js';
+import SocialMedia from './Components/SocialMedia.js';
+import PictureAre from './Components/PictureAre.js';
+import AboutUs from './Components/AboutUs.js';
+import AreInNumbers from './Components/AreInNumbers';
+import Footer from './Components/Footer.js';
+import ImageSlider from './Components/ScrollingPictures';
+
+
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,8 +29,4 @@ function App() {
           ACTIVITIES AAAA
         </a>
       </header>
-    </div>
-  );
-}
-
 export default App;
