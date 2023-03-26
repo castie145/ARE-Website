@@ -1,0 +1,32 @@
+.slideshow {
+    position: relative;
+  }
+  
+  .slideshow img {
+    width: 100%;
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .previous-button,
+  .next-button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    color: #ccc;
+  }
+  
