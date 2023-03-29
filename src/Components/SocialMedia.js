@@ -14,22 +14,39 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
+    const handleButtonClickInstagram = () => {
+      window.open('https://www.instagram.com/association.robotique.ensi/', '_blank');
+    };
+    
+    const handleButtonClickFacebook = () => {
+        window.open('https://www.facebook.com/association.robotique.ensi', '_blank');
+      };
+    
+      const handleButtonClickLinkedin = () => {
+        window.open('https://www.linkedin.com/in/association-robotique-ensi/', '_blank');
+      }; 
+      const handleButtonClickYoutube= () => {
+        window.open('https://www.youtube.com/@associationrobotiqueensi8646', '_blank');
+      }; 
+       
 function SocialMedia() {
      return (
          <div className='logos'>
             <div>
-                <FontAwesomeIcon icon={faFacebook} />
+                <button  className='btns' type='submit'>
+                    <FontAwesomeIcon icon={faFacebook}  onClick={handleButtonClickFacebook}/>
+                </button>
             </div>
 
               <div>
-                <FontAwesomeIcon icon={faInstagram} />
+                <FontAwesomeIcon icon={faInstagram}  onClick={handleButtonClickInstagram}/>
                 </div>
 
              <div>
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedin} onClick={handleButtonClickLinkedin} />
                  </div>
              <div>
-                 <FontAwesomeIcon icon={faYoutube} />
+                 <FontAwesomeIcon icon={faYoutube}  onClick={handleButtonClickYoutube}/>
             </div>
             
         </div>

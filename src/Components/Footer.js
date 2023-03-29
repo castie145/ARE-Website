@@ -37,9 +37,9 @@ function Footer() {
                         </ul>
                     </div>
                     {/* column3 */}
-                    <div className="list">
+                    <div className="col">
                         <h4><FaPhone></FaPhone>&nbsp;PHONE</h4>
-                        <ul className='col'>
+                        <ul className='list'>
                             <li>+21695317195</li>
                             <li>+21650047963</li>
                         </ul>

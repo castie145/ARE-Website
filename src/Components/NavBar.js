@@ -8,7 +8,7 @@ function NavBar() {
     }
     return (
         <header>
-
+   
             <nav ref={navRef}>
                
 
