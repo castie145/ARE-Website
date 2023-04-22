@@ -24,7 +24,7 @@ function PictureSlider() {
   }, [currentImageIndex]);
 
   return (
-    <div className="picture-container">
+    <div className="picture-container" >
        {/* <ReactImageResizer
         src={images[currentImageIndex]}
         height={200}
